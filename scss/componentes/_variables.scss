@@ -1,0 +1,39 @@
+$container : container !default; // Permite modificar el nombre de las clases usadas como contenedor e item.
+$item      : item !default;
+
+// Ancho máximo para los contenedores
+$max-width : 1200px !default;
+
+// Seperación horizontal entre items (*2)
+$gutter : 15px !default;
+
+// Breakpoints
+$breakpoints : (
+        s  : 0,
+        m  : 640px,
+        l  : 1024px,
+        xl : 1440px
+) !default;
+
+// Fracciones para calcular anchos de los items
+$fractions : 3 6 !default;
+
+//Ancho de Fuente
+$light: 300;
+$lightI: 300i;
+$regular: 400;
+$regularI: 400i;
+$medium: 500;
+$mediumI: 500i;
+$semiBold: 600;
+$semiBoldI: 600i;
+
+//Colors
+$primary: #5b86e5;
+$secondary: #36d1dc;
+$blue: #304275;
+$lightBlue: #7186AE;
+$red: #EA4335;
+$thinBlue: #DADEE5;
+$green: #31AA52;
+$yellow: #FBBC05;

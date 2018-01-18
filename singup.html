@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Regístro</title>
+  </head>
+  <body>
+    <div class="log-logo">
+      <div class="log-logo__img"><img src="img/easylogo-300x300.png"></div>
+    </div>
+    <div class="log-title">
+      <div class="log-logo__text">
+        <h1>Regístrate</h1>
+      </div>
+    </div>
+    <!--.log-message
+    .log-message__text
+        p Se envio un correo a:
+            span correo@example.com
+    
+    -->
+    <div class="log-form">
+      <div class="stc">
+        <!--.tc: two colunmc: colunm
+        -->
+        <form class="log-form__form__el tc">
+          <div class="c">
+            <div>
+              <label class="log-label">Nombre:
+                <input class="log-input tc" type="text">
+              </label>
+            </div>
+            <div>
+              <label class="log-label">Apellido:
+                <input class="log-input tc" type="password">
+              </label>
+            </div>
+            <div>
+              <label class="log-label">Género:</label>
+              <label class="log-labelInput">
+                <input class="log-radio" type="radio" name="genero"> Masculino
+              </label>
+              <label class="log-labelInput">
+                <input class="log-radio" type="radio" name="genero"> Femenino
+              </label>
+            </div>
+          </div>
+          <div class="c">
+            <div>
+              <label class="log-label">Email:
+                <input class="log-input tc" type="text">
+              </label>
+              <!--p El email ya ese encuentra regístrado.-->
+            </div>
+            <div>
+              <label class="log-label">Contraseña:
+                <input class="log-input tc" type="password">
+              </label>
+            </div>
+            <div>
+              <label class="log-label">Conf. Contraseña:
+                <input class="log-input tc" type="password">
+              </label>
+            </div>
+          </div>
+          <div class="term">
+            <label class="log-labelTerm">
+              <input class="log-term" type="checkbox">  Acepto los Términos y Condiciones y Políticas de Privacidad
+            </label>
+          </div>
+          <div>
+            <button class="btn-primary log-btn" type="submmit">Regístrarme</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer class="log-footer">
+      <div class="log-footer__text">
+        <p>¿Tienes una cuenta?<a class="log-link" href="#">Inicia Sesión</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+doctype html
+html(lang=es)
+    head
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        link(rel="stylesheet", href="css/styles.css")
+        title Regístro
+    body
+        .log-logo
+            .log-logo__img
+                img(src="img/easylogo-300x300.png")
+
+        .log-title
+            .log-logo__text
+                h1 Regístrate
+
+        //.log-message
+            .log-message__text
+                p Se envio un correo a:
+                    span correo@example.com
+
+        .log-form
+            .stc
+                //.tc: two colunm
+                    c: colunm
+                form.log-form__form__el.tc
+                    .c
+                        div
+                            label.log-label
+                                | Nombre:
+                                input.log-input.tc(type="text")
+
+                        div
+                            label.log-label
+                                | Apellido:
+                                input.log-input.tc(type="password")
+
+                        div
+                            label.log-label
+                                | Género:
+
+                            label.log-labelInput
+                                input.log-radio(type='radio', name='genero')
+                                |  Masculino
+                            label.log-labelInput
+                                input.log-radio(type='radio', name='genero')
+                                |  Femenino
+
+                    .c
+                        div
+                            label.log-label
+                                | Email:
+                                input.log-input.tc(type="text")
+                            //p El email ya ese encuentra regístrado.
+
+                        div
+                            label.log-label
+                                | Contraseña:
+                                input.log-input.tc(type="password")
+
+                        div
+                            label.log-label
+                                | Conf. Contraseña:
+                                input.log-input.tc(type="password")
+
+                    div.term
+                        label.log-labelTerm
+                            input.log-term(type="checkbox")
+                            |   Acepto los Términos y Condiciones y Políticas de Privacidad
+
+                    div
+                        button.btn-primary.log-btn(type="submmit") Regístrarme
+
+        footer.log-footer
+            .log-footer__text
+                p ¿Tienes una cuenta?
+                    a.log-link(href="#") Inicia Sesión

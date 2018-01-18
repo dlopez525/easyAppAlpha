@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:300,300i,400,400i,500,500i,600,600i');
+//Importa el reset
+@import "componentes/base/reset";
+
+//Importa los variables que se utilizan en el proyecto
+@import "componentes/variables";
+
+//Importa el core del layout
+@import "componentes/layout/breackpoints";
+@import "componentes/layout/helpers";
+@import "componentes/layout/core";
+@import "componentes/layout/grid";
+@import "componentes/layout/visibility";
+@import "componentes/layout/video";
+@import "componentes/layout/flexbox";
+
+//Importa los modulos
+//@import "componentes/modulos/";
+@import "componentes/modulos/header";
+@import "componentes/modulos/link";
+@import "componentes/modulos/text";
+@import "componentes/modulos/button";
+
+//Importa los temas
+//@import "componentes/tema/";
+@import "componentes/tema/log";
+
+//importa los estados
+//@import "componentes/estados/";
+
+

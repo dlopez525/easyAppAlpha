@@ -1,0 +1,13 @@
+.btn-primary {
+  background: $primary;
+  color: #fff;
+  border: none;
+  height: 35px;
+  width: 200px;
+  cursor: pointer;
+  border-radius: 50px;
+
+  &:hover {
+    background: darken($primary, 10%);
+  }
+}

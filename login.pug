@@ -1,0 +1,44 @@
+doctype html
+html(lang=es)
+    head
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        link(rel="stylesheet", href="css/styles.css")
+        title Login
+    body
+        .log-logo
+            .log-logo__img
+                img(src="img/easylogo-300x300.png")
+
+        .log-title
+            .log-logo__text
+                h1 Iniciar Sesión
+
+        //.log-message
+            .log-message__text
+                p Se envio un correo a:
+                    span correo@example.com
+
+        .log-form
+            .log-form__form
+                form.log-form__form__el
+                    div
+                        label.log-label
+                            |Email:
+                            input.log-input(type="text")
+
+                    div
+                        label.log-label
+                            | Contraseña:
+                            input.log-input(type="password")
+
+                    div
+                        a.log-link(href="#") ¿Olvidaste tu contraseña?
+
+                    div
+                        button.btn-primary.log-btn(type="submmit") Iniciar Sesión
+
+        footer.log-footer
+            .log-footer__text
+                p ¿No tienes una cuenta?
+                    a.log-link(href="#") Regístrate

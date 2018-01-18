@@ -23,7 +23,7 @@ html(lang=es)
             .stc
                 //.tc: two colunm
                     c: colunm
-                form.log-form__form__el.tc
+                form.log-form__form__el.tc#formSingUp
                     .c
                         div
                             label.log-label
@@ -47,11 +47,11 @@ html(lang=es)
                                 |  Femenino
 
                     .c
-                        div
+                        div.err
                             label.log-label
                                 | Email:
                                 input.log-input.tc(type="text")
-                            //p El email ya ese encuentra regístrado.
+                            p El email ya ese encuentra regístrado.
 
                         div
                             label.log-label
@@ -75,3 +75,5 @@ html(lang=es)
             .log-footer__text
                 p ¿Tienes una cuenta?
                     a.log-link(href="#") Inicia Sesión
+
+        script(src="js/easyApp.js")

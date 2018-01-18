@@ -116,6 +116,8 @@
       }
 
       .err {
+        position: relative;
+
         label {
           color: $red;
 
@@ -129,6 +131,7 @@
           margin: 0;
           font-size: 12px;
           color: $red;
+          position: absolute;
         }
       }
 

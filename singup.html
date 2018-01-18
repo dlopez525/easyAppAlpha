@@ -25,7 +25,7 @@
       <div class="stc">
         <!--.tc: two colunmc: colunm
         -->
-        <form class="log-form__form__el tc">
+        <form class="log-form__form__el tc" id="formSingUp">
           <div class="c">
             <div>
               <label class="log-label">Nombre:
@@ -48,11 +48,11 @@
             </div>
           </div>
           <div class="c">
-            <div>
+            <div class="err">
               <label class="log-label">Email:
                 <input class="log-input tc" type="text">
               </label>
-              <!--p El email ya ese encuentra regístrado.-->
+              <p>El email ya ese encuentra regístrado.</p>
             </div>
             <div>
               <label class="log-label">Contraseña:
@@ -81,5 +81,6 @@
         <p>¿Tienes una cuenta?<a class="log-link" href="#">Inicia Sesión</a></p>
       </div>
     </footer>
+    <script src="js/easyApp.js"></script>
   </body>
 </html>
